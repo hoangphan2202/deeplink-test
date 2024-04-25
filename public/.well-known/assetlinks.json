@@ -4,7 +4,7 @@
     "namespace": "android_app",
     "package_name": "app.pibase.org",
     "sha256_cert_fingerprints":
-    ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"]
+    ["45:83:09:F3:C7:C8:03:E4:4C:C5:F1:0F:03:07:C6:B4:91:19:18:19:21:4E:B4:0C:E2:6D:48:FC:09:0F:6F:24"]
   }
 },
   {
@@ -20,6 +20,6 @@
       "namespace": "android_app",
       "package_name": "app.pibase.org",
       "sha256_cert_fingerprints":
-      ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"]
+      ["45:83:09:F3:C7:C8:03:E4:4C:C5:F1:0F:03:07:C6:B4:91:19:18:19:21:4E:B4:0C:E2:6D:48:FC:09:0F:6F:24"]
     }
   }]
