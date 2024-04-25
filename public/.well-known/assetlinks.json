@@ -6,20 +6,4 @@
     "sha256_cert_fingerprints":
     ["45:83:09:F3:C7:C8:03:E4:4C:C5:F1:0F:03:07:C6:B4:91:19:18:19:21:4E:B4:0C:E2:6D:48:FC:09:0F:6F:24"]
   }
-},
-  {
-    "relation": ["delegate_permission/common.get_login_creds"],
-    "target": {
-      "namespace": "web",
-      "site": "https://deeplink-test-five.vercel.app"
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.get_login_creds"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "app.pibase.org",
-      "sha256_cert_fingerprints":
-      ["45:83:09:F3:C7:C8:03:E4:4C:C5:F1:0F:03:07:C6:B4:91:19:18:19:21:4E:B4:0C:E2:6D:48:FC:09:0F:6F:24"]
-    }
-  }]
+}]
