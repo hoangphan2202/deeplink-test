@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "app.pibase.org",
+    "package_name": "app.pibase.co",
     "sha256_cert_fingerprints":
-    ["29:71:EB:09:95:79:32:34:EA:D0:4B:E6:D2:70:02:BC:34:A3:AE:64:67:11:57:24:9F:21:54:86:C3:32:80:A1"]
+    ["45:83:09:F3:C7:C8:03:E4:4C:C5:F1:0F:03:07:C6:B4:91:19:18:19:21:4E:B4:0C:E2:6D:48:FC:09:0F:6F:24"]
   }
 }]
