@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const Test = () => {
+const SignUp = () => {
     useEffect(() => {
         const isDesktop = window.innerWidth > 1024;
         if (isDesktop) {
@@ -21,4 +21,4 @@ const Test = () => {
     );
 };
 
-export default Test;
+export default SignUp;
