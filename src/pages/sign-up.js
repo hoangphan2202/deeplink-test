@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const SignUp = () => {
   useEffect(() => {
     window.location.href =
-      "https://play.google.com/store/apps/details?id=vn.f5seconds.wowsport.development";
+      "https://play.google.com/store/apps/details?id=vn.f5seconds.wowsport";
   }, []);
 
   return (

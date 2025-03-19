@@ -3,10 +3,11 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "vn.f5seconds.wowsport.development",
+      "package_name": "vn.f5seconds.wowsport",
       "sha256_cert_fingerprints": [
         "53:F6:46:64:02:0B:B3:5F:6B:EC:BB:3E:DF:E6:E4:8F:8D:E9:DE:D0:00:39:13:C0:89:71:D2:FA:64:B4:A7:AD",
-        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "50:13:9C:41:A3:D8:8F:2C:6C:53:21:DB:45:B3:FE:2C:39:9A:D6:4A:62:0C:0C:89:A0:5F:4E:9C:5E:13:24:E9"
       ]
     }
   }

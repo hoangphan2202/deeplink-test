@@ -2,11 +2,21 @@
   "applinks": {
     "details": [
       {
-        "appID": "RS6BYVW5DS.vn.f5seconds.wowsport.development",
+        "appID": "RS6BYVW5DS.vn.f5seconds.wowsport",
         "paths": [
           "*"
         ]
       }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "RS6BYVW5DS.vn.f5seconds.wowsport"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "RS6BYVW5DS.vn.f5seconds.wowsport"
     ]
   }
 }
