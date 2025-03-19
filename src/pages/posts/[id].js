@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function PostPage() {
   const router = useRouter();
@@ -23,20 +24,33 @@ export default function PostPage() {
   };
 
   // Add meta tag dynamically
-  useEffect(() => {
-    const metaTag = document.createElement("meta");
-    metaTag.name = "apple-itunes-app";
-    metaTag.content = `app-id=id6740320411, app-argument=wowsport://posts/${id}`;
-    document.head.appendChild(metaTag);
+  //   useEffect(() => {
+  //     const metaTag = document.createElement("meta");
+  //     metaTag.name = "apple-itunes-app";
+  //     metaTag.content = `app-id=6740320411, app-argument=wowsport://posts/${id}`;
+  //     document.head.appendChild(metaTag);
 
-    return () => {
-      document.head.removeChild(metaTag);
-    };
-  }, [id]);
+  //     return () => {
+  //       document.head.removeChild(metaTag);
+  //     };
+  //   }, [id]);
 
   return (
     <div className="container mx-auto py-8 px-4">
       <div className="flex flex-col items-center mt-8 space-y-4">
+        <Head>
+          <meta property="al:android:package" content="vn.f5seconds.wowsport" />
+          <meta property="al:android:url" content={`wowsport://posts/${id}`} />
+          <meta property="al:android:app_name" content="WOW Sport" />
+          <meta property="al:ios:url" content={`wowsport://posts/${id}`} />
+          <meta property="al:ios:app_store_id" content="6740320411" />
+          <meta property="al:ios:app_name" content="WOW Sport" />
+          <meta property="al:web:should_fallback" content="false" />
+          <meta
+            property="apple-itunes-app"
+            content={`app-id=6740320411, app-argument=wowsport://posts/${id}`}
+          />
+        </Head>
         {/* {isMobile && (
           <a
             href={`https://wowsport.vn/posts/${id}`}
