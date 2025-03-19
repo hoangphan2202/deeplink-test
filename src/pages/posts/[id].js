@@ -7,13 +7,15 @@ export default function PostPage() {
 
   // Check if browser is in app and redirect
   useEffect(() => {
-    console.log(navigator.userAgent);
-    if (navigator.userAgent.toLowerCase().includes("zalo")) {
-      // Add a small delay to ensure everything is loaded
-      setTimeout(() => {
-        window.location.href = `wowsport://posts/${id}`;
-      }, 100);
-    }
+    // if (navigator.userAgent.toLowerCase().includes("zalo")) {
+    //   // Add a small delay to ensure everything is loaded
+    //   setTimeout(() => {
+    //     window.location.href = `wowsport://posts/${id}`;
+    //   }, 100);
+    // }
+    setTimeout(() => {
+      window.location.href = `wowsport://posts/${id}`;
+    }, 100);
   }, [id]);
 
   const handleOpenInApp = () => {
