@@ -15,12 +15,12 @@ export default function PostPage() {
     //   }, 100);
     // }
     setTimeout(() => {
-      window.location.href = `wowsport://posts/${id}`;
+      window.location.href = `wowsportdev://posts/${id}`;
     }, 100);
   }, [id]);
 
   const handleOpenInApp = () => {
-    window.location.href = `wowsport://posts/${id}`;
+    window.location.href = `wowsportdev://posts/${id}`;
   };
 
   // Add meta tag dynamically
@@ -39,7 +39,10 @@ export default function PostPage() {
     <div className="container mx-auto py-8 px-4">
       <div className="flex flex-col items-center mt-8 space-y-4">
         <Head>
-          <meta property="al:android:package" content="vn.f5seconds.wowsport" />
+          <meta
+            property="al:android:package"
+            content="vn.f5seconds.wowsport.dev"
+          />
           <meta property="al:android:url" content={`wowsport://posts/${id}`} />
           <meta property="al:android:app_name" content="WOW Sport" />
           <meta property="al:ios:url" content={`wowsport://posts/${id}`} />
@@ -48,7 +51,7 @@ export default function PostPage() {
           <meta property="al:web:should_fallback" content="false" />
           <meta
             property="apple-itunes-app"
-            content={`app-id=6740320411, app-argument=wowsport://posts/${id}`}
+            content={`app-id=6740320411, app-argument=wowsportdev://posts/${id}`}
           />
         </Head>
         {/* {isMobile && (
