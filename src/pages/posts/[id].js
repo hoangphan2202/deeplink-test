@@ -14,9 +14,11 @@ export default function PostPage() {
     //     window.location.href = `wowsport://posts/${id}`;
     //   }, 100);
     // }
-    setTimeout(() => {
-      window.location.href = `wowsportdev://posts/${id}`;
-    }, 100);
+    if (id) {
+      setTimeout(() => {
+        window.location.href = `wowsportdev://posts/${id}`;
+      }, 100);
+    }
   }, [id]);
 
   const handleOpenInApp = () => {
